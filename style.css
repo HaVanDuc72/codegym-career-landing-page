@@ -1,0 +1,17 @@
+/* Custom style tùy chỉnh thêm */
+body {
+    scroll-behavior: smooth;
+}
+
+.hoverable {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hoverable:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.jumbotron {
+    border-radius: 0;
+}
